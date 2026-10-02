@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Jacey Leet <jacquelynpauline@gmail.com>"]
+channels = ["conda-forge"]
+name = "512codespace"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.6.4,<5"
+xeus-r = ">=0.11.2,<0.12"
+r-tidyverse = ">=2.0.0,<3"
+r-palmerpenguins = ">=0.1.1,<0.2"
