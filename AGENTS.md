@@ -1,0 +1,2 @@
+- Use the jupyter-mcp tools to read and run notebook cells.
+- Use pixi to manage Python and R packages.
