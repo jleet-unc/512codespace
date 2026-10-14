@@ -1,0 +1,66 @@
+{
+  "messages": [
+    {
+      "time": 1791216024.5868464,
+      "raw_time": false,
+      "body": "hi",
+      "metadata": {
+        "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
+        "settings": {},
+        "model": {
+          "settings": {},
+          "id": null
+        }
+      },
+      "id": "4871c536-5803-49e5-9b43-bb301d91e71a",
+      "sender": "28845d6a329744df853e7002e8685f81",
+      "type": "msg"
+    },
+    {
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
+      "mentions": [],
+      "id": "4aa1d21d-d79c-4068-b825-77b8cf5d9caa",
+      "body": "Hi! How can I help you today?",
+      "type": "msg",
+      "raw_time": false,
+      "time": 1791216028.5568213
+    }
+  ],
+  "users": {
+    "28845d6a329744df853e7002e8685f81": {
+      "initials": "AT",
+      "mention_name": "Anonymous-Thebe",
+      "bot": false,
+      "color": "var(--jp-collaborator-color4)",
+      "username": "28845d6a329744df853e7002e8685f81",
+      "name": "Anonymous Thebe",
+      "display_name": "Anonymous Thebe",
+      "avatar_url": null
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona": {
+      "name": "OpenCode",
+      "initials": null,
+      "display_name": "OpenCode",
+      "color": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
+      "bot": true,
+      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AOpenCodeAcpPersona"
+    },
+    "hidden::jupyter_ai_system": {
+      "avatar_url": null,
+      "initials": null,
+      "bot": true,
+      "username": "hidden::jupyter_ai_system",
+      "color": null,
+      "name": "System",
+      "display_name": "System"
+    }
+  },
+  "attachments": {},
+  "metadata": {
+    "acp_session_ids": {
+      "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona": "ses_ef334b22cffeXpuE17AXlNz1rf"
+    },
+    "id": "48a4c2d6-428f-4552-85a5-05f0b51178fb"
+  }
+}
