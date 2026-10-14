@@ -1,2 +1,5 @@
+# Prefer our version for any file shared with upstream on merge conflicts
+* merge=ours
+
 # SCM syntax highlighting & preventing 3-way merges
 pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff
