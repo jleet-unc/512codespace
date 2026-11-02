@@ -145,9 +145,11 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-ps-1.9.3-r45h54b55ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-purrr-1.2.2-r45h54b55ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-ragg-1.5.2-r45h9f1dc4d_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/r-ranger-0.18.0-r45h3697838_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rappdirs-0.3.4-r45h54b55ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rcpp-1.1.2-r45h3697838_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rcpparmadillo-15.6.0_1-r45h1fcd065_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rcppeigen-0.3.4.0.2-r45h3704496_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-readr-2.2.0-r45h3697838_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-readxl-1.5.0.1-r45h305bd6a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rlang-1.3.0-r45h3697838_0.conda
@@ -417,6 +419,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-repr-1.1.7-r45h785f33e_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-reprex-2.1.1-r45hc72bb7e_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-rmarkdown-2.32-r45hacb3a79_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/r-rpart.plot-3.1.5-r45hacb3a79_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-rsample-1.3.2-r45hc72bb7e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-rstudioapi-0.19.0-r45hc72bb7e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/r-rvest-1.0.5-r45hc72bb7e_1.conda
@@ -2488,6 +2491,22 @@ packages:
   run_exports: {}
   size: 596604
   timestamp: 1774267940113
+- conda: https://conda.anaconda.org/conda-forge/linux-64/r-ranger-0.18.0-r45h3697838_0.conda
+  sha256: 244a2c5588dfb3178cac1fba8396942bdbf46dc1cb2b753c5da0bd89f241a4ee
+  md5: 762390b5bf963127690c94793502e057
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  - libstdcxx >=14
+  - r-base >=4.5,<4.6.0a0
+  - r-matrix
+  - r-rcpp >=0.11.2
+  - r-rcppeigen
+  license: GPL-3.0-only
+  license_family: GPL3
+  run_exports: {}
+  size: 467396
+  timestamp: 1768734673959
 - conda: https://conda.anaconda.org/conda-forge/linux-64/r-rappdirs-0.3.4-r45h54b55ab_0.conda
   sha256: a9778d5fa6777ce286815eb0abef625ff54693532795ef48a1bc319967e0ecb4
   md5: 9fa763ece102dca3e50892bad36896ff
@@ -2530,6 +2549,23 @@ packages:
   run_exports: {}
   size: 881850
   timestamp: 1788861016576
+- conda: https://conda.anaconda.org/conda-forge/linux-64/r-rcppeigen-0.3.4.0.2-r45h3704496_1.conda
+  sha256: fd1cc8ec804fede96bbd07867c58fd15c9fdb3fbae800ba0eb7b2779910734dc
+  md5: 743927aa75562d9a53b8fda4777bdf93
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libblas >=3.9.0,<4.0a0
+  - libgcc >=14
+  - liblapack >=3.9.0,<4.0a0
+  - libstdcxx >=14
+  - r-base >=4.5,<4.6.0a0
+  - r-matrix >=1.1_0
+  - r-rcpp >=0.11.0
+  license: GPL-2.0-or-later
+  license_family: GPL2
+  run_exports: {}
+  size: 1496128
+  timestamp: 1757496030112
 - conda: https://conda.anaconda.org/conda-forge/linux-64/r-readr-2.2.0-r45h3697838_0.conda
   sha256: 06a42932d182259540fd53dca6ac6e988bb28b70d4b09d5786b4260928090598
   md5: a5f0d7d99d912486b2d93a576fadb8e0
@@ -6318,6 +6354,17 @@ packages:
   run_exports: {}
   size: 2085929
   timestamp: 1788450417367
+- conda: https://conda.anaconda.org/conda-forge/noarch/r-rpart.plot-3.1.5-r45hacb3a79_0.conda
+  sha256: f51f83ca5bd08ce9108a416ab0256b3b18f4a9a484096f7b28b7c12322306eee
+  md5: 02138b82db684064ffffa9adda32076a
+  depends:
+  - r-base >=4.5,<4.6.0a0
+  - r-rpart >=4.1_15
+  license: GPL-3.0-only
+  license_family: GPL3
+  run_exports: {}
+  size: 989642
+  timestamp: 1787335005989
 - conda: https://conda.anaconda.org/conda-forge/noarch/r-rsample-1.3.2-r45hc72bb7e_0.conda
   sha256: 5173977e3f1cc00fe1616801237092cf9e4b2246df0118830b54200b515197ac
   md5: a361947d7d35dd7806b98a177e79032a
